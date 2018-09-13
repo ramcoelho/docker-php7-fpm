@@ -4,6 +4,7 @@ MAINTAINER Ricardo Coelho <ricardo@nexy.com.br>
 RUN apt-get update \
     && apt-get install --no-install-recommends -y \
         git \
+        sudo \
         libpq-dev \
         libicu-dev \
         libcurl4-openssl-dev \
